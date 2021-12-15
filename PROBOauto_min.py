@@ -21,8 +21,8 @@ pyautogui.PAUSE = 1.2
 
 #정상 로그인
 
-pyautogui.click(842,670, duration = 0.3); pyautogui.typewrite('ecoadmin', interval = 0.1)
-pyautogui.press('tab'); pyautogui.typewrite('dionavi1234!@', interval = 0.1)
+pyautogui.click(842,670, duration = 0.3); pyautogui.typewrite('<id>', interval = 0.1)
+pyautogui.press('tab'); pyautogui.typewrite('<password>', interval = 0.1)
 pyautogui.click(842,856, duration = 0.3)
 
 
